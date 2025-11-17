@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <script src="caulculadoraIMC.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <section>
+
+        <div class="campo">
+            <label for="peso">Peso (Kg)</label>
+            <input type="number" id="peso"><br><br>
+        </div>
+
+        <div class="campo">
+            <label for="altura">Altura (m)</label>
+            <input type="number" id="altura">
+        </div>
+
+        <button onclick="calculoIMC()">Calcular</button>
+    </section>
+
+    <p id="imcCalculado"></p>
+    <p id="classificacao"></p>
+</body>
+</html>
